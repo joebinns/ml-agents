@@ -9,7 +9,7 @@ behaviors:
         lambd: 0.99
         learning_rate: 3.0e-4
         learning_rate_schedule: linear
-        max_steps: 5.0e5
+        max_steps: 5.0e6
         memory_size: 128
         normalize: true
         num_epoch: 3
