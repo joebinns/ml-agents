@@ -1,10 +1,10 @@
 behaviors:
   Walker:
     trainer: sac
-    batch_size: 1024
+    batch_size: 256
     buffer_size: 2000000
     buffer_init_steps: 0
-    hidden_units: 512
+    hidden_units: 256
     init_entcoef: 1.0
     learning_rate: 0.0003
     learning_rate_schedule: constant
